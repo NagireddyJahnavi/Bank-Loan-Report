@@ -12,13 +12,13 @@ This project aims to create a comprehensive dashboard to track and analyze key m
 
 ### Steps followed 
 
-Step 1: Loaded Data into Power BI
+#Step 1: Loaded Data into Power BI
 Connected to the SQL Server database by opening Power BI Desktop and selecting Get Data → SQL Server.
 
 Choose Import mode to load the data from the relevant tables.
 
 
-Step 2: Opened Power Query Editor
+#Step 2: Opened Power Query Editor
 clicked on Transform Data to open Power Query Editor.
 
 In the View tab, enabled the following options under Data Preview:
@@ -29,28 +29,28 @@ Column Quality
 
 Column Profile
 
-Step 3: Modified Column Profiling Settings
+#Step 3: Modified Column Profiling Settings
 By default, the profile was based on the first 1000 rows. Changed this to "Column profiling based on entire dataset" for a complete view of the data.
 
-Step 5: Data Cleaning and Transformation
+#Step 4: Data Cleaning and Transformation
 Checked for any blank values, duplicates, or mistakes in the data.
 
 Modified data types of necessary fields to ensure consistency.
 
 After completing these transformations, the data was ready for reporting.
 
-Step 6: Validated Data with SQL Queries
+#Step 5: Validated Data with SQL Queries
 Before building the report, ran all necessary SQL queries in SQL Server Management Studio (SSMS) to get exact numbers.
 
 Used these results to cross-check the data reflected in Power BI visuals for accuracy.
 
-Step 9: Created Date Table and Relationships
+#Step 6: Created Date Table and Relationships
 Created a Date Table using DAX in Power BI.
 
 Marked the Date Table as a Date Table and created a relationship between it and the Bank Loan Table using the issue date field.
 
 
-Step 8: Identified Key Metrics and KPIs
+#Step 7: Identified Key Metrics and KPIs
 Listed the Key Performance Indicators (KPIs) and business questions that needed to be answered in the report, such as:
 
 Total Loan Applications
@@ -63,9 +63,16 @@ Average Interest Rate (overall, MTD, and MoM)
 
 Average Debt-to-Income (DTI) Ratio (overall, MTD, and MoM)
 
-Good Loan vs. Bad Loan KPIs
+#Step 8: Created Good Loan Vs Bad Loan comparison KPIs
+Loan Application Percentage
+ 
+Loan Applications
 
-Step 9: Created Visualizations in Power BI
+Loan Funded Amount
+
+Loan Total Received Amount
+
+#Step 9: Created Visualizations in Power BI
 Built the following charts to visualize the data:
 
 Line Chart: Monthly trends by issue date
@@ -81,7 +88,7 @@ Bar Chart: Loan purpose breakdown
 Tree Map: Impact of home ownership on loan applications
 
 
-Step 10: Organized Report Layout
+#Step 10: Organized Report Layout
 Created the Summary tab with KPIs.
 
 Placed all visualizations in the Overview tab.
