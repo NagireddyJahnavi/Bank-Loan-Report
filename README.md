@@ -102,7 +102,6 @@ Placed all visualizations in the Overview tab.
 
 ![Snap_2](https://github.com/user-attachments/assets/b900739b-9ff0-467f-9831-48ee6cc62610)
 
-Designed the details tab to give a consolidated summary of business insights.
-
+Designed the details tab that provides a consolidated view of all the essential information within our loan data
 
 ![Snap_3](https://github.com/user-attachments/assets/60a83f67-19f6-40a7-bc4d-c6ed3a468a1e)
