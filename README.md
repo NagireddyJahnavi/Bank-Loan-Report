@@ -77,9 +77,6 @@ Loan Funded Amount
 
 Loan Total Received Amount
 
-![Snap_1](https://github.com/user-attachments/assets/5e4e126f-fda2-4787-afe9-a97c205dc63a)
-
-
 #### Step 9: Created Visualizations in Power BI
 Built the following charts to visualize the data:
 
@@ -95,14 +92,17 @@ Bar Chart: Loan purpose breakdown
 
 Tree Map: Impact of home ownership on loan applications
 
-![Snap_2](https://github.com/user-attachments/assets/5e4e126f-fda2-4787-afe9-a97c205dc63a)
-
 #### Step 10: Organized Report Layout
 Created the Summary tab with KPIs.
 
+![Snap_1](https://github.com/user-attachments/assets/5e4e126f-fda2-4787-afe9-a97c205dc63a)
+
+
 Placed all visualizations in the Overview tab.
+
+![Snap_2](https://github.com/user-attachments/assets/b900739b-9ff0-467f-9831-48ee6cc62610)
 
 Designed the details tab to give a consolidated summary of business insights.
 
 
-![Snap_3](https://github.com/user-attachments/assets/5e4e126f-fda2-4787-afe9-a97c205dc63a)
+![Snap_3](https://github.com/user-attachments/assets/60a83f67-19f6-40a7-bc4d-c6ed3a468a1e)
